@@ -1,0 +1,10 @@
+Filesystem
+udev
+tmpfs
+/dev/sda4
+tmpfs
+tmpfs
+tmpfs
+/dev/sda9
+/dev/sda1
+tmpfs

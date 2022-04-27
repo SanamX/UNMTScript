@@ -1,0 +1,10 @@
+Mounted
+/dev
+/run
+/
+/dev/shm
+/run/lock
+/sys/fs/cgroup
+/boot
+/boot/efi
+/run/user/1000
