@@ -5,7 +5,7 @@ if [[ $# -eq 0 ]] ; then
     exit 0
 fi
 
-tar -cvpzf $1.tar.gz -P $HOME/$1 > /dev/null
+tar -cvpzf $1.$2 -P $HOME/$1 > /dev/null
 ls -I "*.sh" > backupfile
 echo $?
 

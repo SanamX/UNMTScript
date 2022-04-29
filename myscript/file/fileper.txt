@@ -29,6 +29,7 @@ drwxrwxr-x
 -rw-rw-r--
 -rwxrwxr-x
 -rwxrwxr-x
+-rwxrwxr-x
 drwxrwxr-x
 -rw-rw-r--
 -rw-rw-r--
@@ -38,6 +39,7 @@ drwxrwxr-x
 -rw-rw-r--
 -rw-rw-r--
 drwxrwxr-x
+-rw-rw-r--
 -rw-r--r--
 drwxrwxr-x
 drwxrwxr-x

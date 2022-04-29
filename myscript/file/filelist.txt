@@ -28,6 +28,7 @@ git
 grafana-enterprise_8.4.5_amd64.deb
 hello.sh
 hii.sh
+killp.sh
 Login_info
 loglist
 longps
@@ -37,6 +38,7 @@ myscript
 myscript.tar.gz
 myscript.zip
 nitrogen
+out
 package.xml
 php
 phpseclib

@@ -9,10 +9,10 @@ ocmd=$(ps -p $userid | tail -1 | awk '{print $4}')
 echo "$username $userid $ocmd $pruntime" >> $HOME/myscript/process/process2.txt
 done
 
-cat $HOME/myscript/process/process2.txt | awk '{print $1}' > userid
-cat $HOME/myscript/process/process2.txt | awk '{print $2}' > procid
-cat $HOME/myscript/process/process2.txt | awk '{print $3}' > cmd
-cat $HOME/myscript/process/process2.txt | awk '{print $4}' > runtime
+cat $HOME/myscript/process/process2.txt | awk '{print $1}' > $HOME/myscript/process/userid
+cat $HOME/myscript/process/process2.txt | awk '{print $2}' > $HOME/myscript/process/procid
+cat $HOME/myscript/process/process2.txt | awk '{print $3}' > $HOME/myscript/process/cmd
+cat $HOME/myscript/process/process2.txt | awk '{print $4}' > $HOME/myscript/process/runtime
 
 wc -l $HOME/myscript/process/process2.txt | awk '{print $1}'
 
